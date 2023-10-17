@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Home</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+        <meta charset="utf-8">
+        <style>
+            body{
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+                margin: 0;
+                font-family: 'Lato', sans-serif;
+            }
+            button{
+                font-family: 'Lato', sans-serif;
+            }
+            .bg-gray-900 {
+                background-color: #121826;
+            }
+            .text-white {
+                color: #fff;
+            }
+            .block {
+                display: block;
+            }
+            .inline-block {
+                display: inline-block;
+            }
+            .inline {
+                display: inline;
+            }
+            .hidden {
+                display: none;
+            }
+            .flex {
+                display: flex;
+            }
+            .justify-between {
+                justify-content:space-between;
+            }
+            .justify-center {
+                justify-content: center;
+            }
+            .items-center {
+                align-items: center;
+            }
+            .gap-4 {
+                gap: 1rem;
+            }
+            .m-4{
+                margin: 0.7rem;
+            }
+            .p-4{
+                padding: 0.5rem;
+            }
+            .py-4{
+                padding: 1rem 0.5rem;
+            }
+            .px-6{
+                padding: 0.5rem 1rem;
+            }
+            .font-lato{
+                font-family: 'Lato', sans-serif;
+            }
+            .no-underline{
+                text-decoration: none;
+            }
+            .bg-brand-teal{
+                background-color: #539D98;
+            }
+            .border-none{
+                border: none;
+            }
+            .rounded-full{
+                border-radius: 99999px;
+            }
+            .bold{
+                font-weight: bold;
+            }
+            .uppercase{
+                text-transform: uppercase;
+            }
+            .test-sm{
+                font-size: 14px;
+            }
+            .text-spaced{
+                letter-spacing: 1px;
+            }
+            .w-full{
+                width: 100%;
+            }
+            .relative{
+                position: relative;
+            }
+            .z-10{
+                z-index: 10;
+            }
+        </style>
+    </head>
+    <body >
+        <header class="flex justify-between p-4 relative z-10">
+            <div class="flex items-center m-4">
+                <img src="./img/logo.svg" class="text-white no-underline" alt="logo" style="margin-right: 50px;" />
+                <a href="" class="text-white p-4 no-underline" >Pricing</a>
+                <a href="" class="text-white p-4 no-underline" >Courses</a>
+                <a href="" class="text-white p-4 no-underline" >Blog</a>
+                <a href="" class="text-white p-4 no-underline" >Forum</a>
+            </div>
+            <div class="flex items-center m-4">
+                <a href="" class="text-white p-4 no-underline" style="margin-right: 30px;" >Login</a>
+                <button class="text-white bg-brand-teal border-none rounded-full px-6 bold uppercase test-sm text-spaced"  >Sign Up</button>
+            </div>
+        </header>
+        <section class="relative" style="top:-82px">
+            <video 
+                loop="loop" 
+                autoplay="autoplay" 
+                playsinline="" 
+                muted="muted" 
+                class="w-full h-full object-cover" 
+                style="min-height: 550px;"
+                src="https://chriscourses.com/_nuxt/videos/galaxy.b6c8fb5.mp4">
+            </video>
+        </section>
+            <h1>Home</h1>
+        <p>Home page content goes here.</p>
+    </body>
+</html> 
